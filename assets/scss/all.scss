@@ -16,6 +16,7 @@
 @import "../../node_modules/bootstrap/scss/nav";
 @import "../../node_modules/bootstrap/scss/navbar";
 @import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/pagination";
 
 // Helpers 幫手
 @import "../../node_modules/bootstrap/scss/helpers";
@@ -29,3 +30,5 @@
 
 // 自定義樣式 pages 資料夾
 @import "./pages/home";
+@import "./pages/stores";
+@import "./pages/blog";

@@ -1,0 +1,18 @@
+.blog__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+
+.article__link-hover:hover {
+  color: $primary !important;
+}
+
+.page-item.active .page-link{
+  color: $white !important;
+  background: $black;
+  border-color: $black;
+}

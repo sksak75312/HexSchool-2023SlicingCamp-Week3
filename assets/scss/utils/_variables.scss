@@ -73,7 +73,7 @@ $colors: (
 $primary:       #AA0601; //$blue !default;
 $secondary:     #650300; //$gray-600 !default;
 $success:       #FBF2F2;//$green !default;
-$info:          $cyan !default;
+$info:          #9F1213;//$cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
@@ -93,6 +93,8 @@ $theme-colors: (
   "third":     #DEE2E6,
   "dark-third": #707070,
   "light-third": #00000029,
+  "light-gray": #CED4DA,
+  "black": $black,
 ) !default;
 // scss-docs-end theme-colors-map
 
