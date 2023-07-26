@@ -11054,6 +11054,11 @@ textarea.form-control-lg {
   color: #AA0601 !important;
 }
 
+.search__icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .blog__text {
   overflow: hidden;
   text-overflow: ellipsis;
