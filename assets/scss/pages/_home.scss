@@ -30,20 +30,24 @@
     opacity: 0.8;
   }
 
-  &__img {
-    height: 240px;
-    transition: .2s ease-in;
-
-    &-first {
+  &__item {
+    &:nth-child(1) .joint__img {
       background-image: url("../assets/images/home-section4-1-sm.png");
-    }
-
-    &-last {
+    } 
+    &:nth-child(2) .joint__img {
       background-image: url("../assets/images/home-section4-2-sm.png");
     }
   }
+
+  &__img {
+    height: 240px;
+    transition: .2s ease-in;
+  }
 }
 
+.client__card {
+  min-height: 511px;
+}
 
 // 設備768px以上
 @media (min-width: 768px) {

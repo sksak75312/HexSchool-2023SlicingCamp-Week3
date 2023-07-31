@@ -11034,15 +11034,19 @@ textarea.form-control-lg {
 .joint__link:hover .joint__img {
   opacity: 0.8;
 }
+.joint__item:nth-child(1) .joint__img {
+  background-image: url("../assets/images/home-section4-1-sm.png");
+}
+.joint__item:nth-child(2) .joint__img {
+  background-image: url("../assets/images/home-section4-2-sm.png");
+}
 .joint__img {
   height: 240px;
   transition: 0.2s ease-in;
 }
-.joint__img-first {
-  background-image: url("../assets/images/home-section4-1-sm.png");
-}
-.joint__img-last {
-  background-image: url("../assets/images/home-section4-2-sm.png");
+
+.client__card {
+  min-height: 511px;
 }
 
 @media (min-width: 768px) {
@@ -11050,10 +11054,19 @@ textarea.form-control-lg {
     height: 787px;
   }
 }
+.stores__select {
+  width: 276px;
+}
+
 .stores__link:hover {
   color: #AA0601 !important;
 }
 
+@media (min-width: 768px) {
+  .stores__select {
+    width: 304px;
+  }
+}
 .search__icon {
   font-size: 30px;
   cursor: pointer;
